@@ -22,7 +22,7 @@
                 <button class="lock"><i class="fas fa-lock-open"></i></button>
             </div>
             <div class="slider">
-                <button>X</button>
+                <button class="closeAdjust">X</button>
                 <span>Hue</span>
                 <input type="range" min="0" max="360" step="1" name="hue" class="hue-input" data-hue="0">
                 <span>Brightness</span>
@@ -39,7 +39,7 @@
                 <button class="lock"><i class="fas fa-lock-open"></i></button>
             </div>
             <div class="slider">
-                <button>X</button>
+                <button class="closeAdjust">X</button>
                 <span>Hue</span>
                 <input type="range" min="0" max="360" step="1" name="hue" class="hue-input" data-hue="1">
                 <span>Brightness</span>
@@ -52,11 +52,11 @@
         <div class="color">
             <h2>ColorCode</h2>
             <div class="controls">
-                <button class="adjust"><i class="fas fa-sliders-h"></i></button>
-                <button class="lock"><i class="fas fa-lock-open"></i></button>
+                <button class="adjust"><i class="fas fa-sliders-h controls "></i></button>
+                <button class="lock"><i class="fas fa-lock-open controls"></i></button>
             </div>
             <div class="slider">
-                <button>X</button>
+                <button class="closeAdjust">X</button>
                 <span>Hue</span>
                 <input type="range" min="0" max="360" step="1" name="hue" class="hue-input" data-hue="2">
                 <span>Brightness</span>
@@ -73,7 +73,7 @@
                 <button class="lock"><i class="fas fa-lock-open"></i></button>
             </div>
             <div class="slider">
-                <button>X</button>
+                <button class="closeAdjust">X</button>
                 <span>Hue</span>
                 <input type="range" min="0" max="360" step="1" name="hue" class="hue-input" data-hue="3">
                 <span>Brightness</span>
@@ -90,7 +90,7 @@
                 <button class="lock"><i class="fas fa-lock-open"></i></button>
             </div>
             <div class="slider">
-                <button>X</button>
+                <button class="closeAdjust">X</button>
                 <span>Hue</span>
                 <input type="range" min="0" max="360" step="1" name="hue" class="hue-input" data-hue="4">
                 <span>Brightness</span>
@@ -110,7 +110,7 @@
             <button class="generate"><i class="fas fa-sync"></i></button>
             <p>Generate</p>
         </div>
-        <div class="save-panel"><button class="generate">
+        <div class="save-panel"><button class="save">
                 <i class="fas fa-save"></i>
             </button>
             <p>Save</p>
@@ -124,15 +124,17 @@
         </div>
     </div>
     <div class="save-container">
-        <div class="save-popup"> <button class="close-save">X</button>
-            <h4>Give Pallete Name</h4>
+        <div class="save-popup">
+            <button class="close-save">X</button>
+            <h4>Give Palette Name</h4>
             <input type="text" max-length="15" class="save-name">
-            <button class="submit-save" type="submit">save</button>
+            <button class="submit-save" type="submit">Save</button>
         </div>
     </div>
     <div class="collection-container">
-        <div class="collection-popup"><button class="close-collection">X</button>
-            <h4>Pick Color Palette</h4>
+        <div class="collection-popup">
+            <button class="close-collection">X</button>
+            <h4 class="palettehead">Pick Color Palette</h4>
         </div>
     </div>
 
