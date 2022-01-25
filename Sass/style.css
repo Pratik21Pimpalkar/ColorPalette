@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=IBM+Plex+Sans:wght@400;500&family=Kanit:wght@300;400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -41,8 +42,11 @@ svg {
 }
 
 .colors-wrapper .color h2 {
+  text-transform: uppercase;
   cursor: pointer;
   font-size: 2.3rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .colors-wrapper .color .controls {
@@ -70,6 +74,7 @@ svg {
 }
 
 .colors-wrapper .color .slider {
+  font-family: 'Kanit', sans-serif;
   position: absolute;
   bottom: 0;
   display: -webkit-box;
@@ -132,6 +137,7 @@ svg {
 }
 
 .panel {
+  font-family: 'Kanit', sans-serif;
   height: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,6 +245,7 @@ svg {
 }
 
 .save-container {
+  font-family: 'Assistant', sans-serif;
   position: absolute;
   top: 0;
   left: 0;
@@ -338,6 +345,7 @@ svg {
 }
 
 .collection-container {
+  font-family: 'Assistant', sans-serif;
   position: absolute;
   top: 0;
   left: 0;
